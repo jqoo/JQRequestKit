@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342E8375209B0194007308F8 /* JQRequestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E8373209B0194007308F8 /* JQRequestKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E8396209B027D007308F8 /* JQDownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E8381209B027B007308F8 /* JQDownloadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E8397209B027D007308F8 /* JQRequestTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E8382209B027C007308F8 /* JQRequestTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E8398209B027D007308F8 /* JQRequest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E8384209B027C007308F8 /* JQRequest+Private.h */; };
+		342E8399209B027D007308F8 /* JQResponseResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E8385209B027C007308F8 /* JQResponseResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E839A209B027D007308F8 /* JQDownloadRequestLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E8386209B027C007308F8 /* JQDownloadRequestLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E839B209B027D007308F8 /* JQRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E8387209B027C007308F8 /* JQRequest.m */; };
+		342E839C209B027D007308F8 /* JQRequestFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E8388209B027C007308F8 /* JQRequestFamily.m */; };
+		342E839D209B027D007308F8 /* JQDNSResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E8389209B027C007308F8 /* JQDNSResolver.m */; };
+		342E839E209B027D007308F8 /* JQRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E838A209B027C007308F8 /* JQRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E839F209B027D007308F8 /* JQMultipartComposer.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E838B209B027C007308F8 /* JQMultipartComposer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E83A1209B027D007308F8 /* JQDNSResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E838D209B027C007308F8 /* JQDNSResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E83A2209B027D007308F8 /* JQMultipartComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E838E209B027C007308F8 /* JQMultipartComposer.m */; };
+		342E83A3209B027D007308F8 /* JQResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E838F209B027C007308F8 /* JQResponseResult.m */; };
+		342E83A4209B027D007308F8 /* JQDownloadRequestLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E8390209B027C007308F8 /* JQDownloadRequestLoader.m */; };
+		342E83A5209B027D007308F8 /* JQRequestLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E8391209B027C007308F8 /* JQRequestLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E83A6209B027D007308F8 /* JQRequestTracer.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E8392209B027C007308F8 /* JQRequestTracer.m */; };
+		342E83A7209B027D007308F8 /* JQRequestFamily.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E8393209B027C007308F8 /* JQRequestFamily.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342E83A8209B027D007308F8 /* JQDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E8394209B027C007308F8 /* JQDownloadRequest.m */; };
+		342E83A9209B027D007308F8 /* JQRequestLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E8395209B027D007308F8 /* JQRequestLoader.m */; };
+		7D58E1B85C9BF849A81DAA54 /* Pods_JQRequestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3570D61E455ED864226EE88A /* Pods_JQRequestKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		342E83AF209B074A007308F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342E83AA209B0749007308F8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6FA568ED631F3B5ECA058804583D8E8E;
+			remoteInfo = AFNetworking;
+		};
+		342E83B1209B074A007308F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342E83AA209B0749007308F8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 420858C0D464876FB51E6CC6BDD7B0E6;
+			remoteInfo = "Pods-JQRequestKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		342E8370209B0194007308F8 /* JQRequestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JQRequestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		342E8373209B0194007308F8 /* JQRequestKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQRequestKit.h; sourceTree = "<group>"; };
+		342E8374209B0194007308F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342E8381209B027B007308F8 /* JQDownloadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQDownloadRequest.h; sourceTree = "<group>"; };
+		342E8382209B027C007308F8 /* JQRequestTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQRequestTracer.h; sourceTree = "<group>"; };
+		342E8384209B027C007308F8 /* JQRequest+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JQRequest+Private.h"; sourceTree = "<group>"; };
+		342E8385209B027C007308F8 /* JQResponseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQResponseResult.h; sourceTree = "<group>"; };
+		342E8386209B027C007308F8 /* JQDownloadRequestLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQDownloadRequestLoader.h; sourceTree = "<group>"; };
+		342E8387209B027C007308F8 /* JQRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQRequest.m; sourceTree = "<group>"; };
+		342E8388209B027C007308F8 /* JQRequestFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQRequestFamily.m; sourceTree = "<group>"; };
+		342E8389209B027C007308F8 /* JQDNSResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQDNSResolver.m; sourceTree = "<group>"; };
+		342E838A209B027C007308F8 /* JQRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQRequest.h; sourceTree = "<group>"; };
+		342E838B209B027C007308F8 /* JQMultipartComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQMultipartComposer.h; sourceTree = "<group>"; };
+		342E838D209B027C007308F8 /* JQDNSResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQDNSResolver.h; sourceTree = "<group>"; };
+		342E838E209B027C007308F8 /* JQMultipartComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQMultipartComposer.m; sourceTree = "<group>"; };
+		342E838F209B027C007308F8 /* JQResponseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQResponseResult.m; sourceTree = "<group>"; };
+		342E8390209B027C007308F8 /* JQDownloadRequestLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQDownloadRequestLoader.m; sourceTree = "<group>"; };
+		342E8391209B027C007308F8 /* JQRequestLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQRequestLoader.h; sourceTree = "<group>"; };
+		342E8392209B027C007308F8 /* JQRequestTracer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQRequestTracer.m; sourceTree = "<group>"; };
+		342E8393209B027C007308F8 /* JQRequestFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQRequestFamily.h; sourceTree = "<group>"; };
+		342E8394209B027C007308F8 /* JQDownloadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQDownloadRequest.m; sourceTree = "<group>"; };
+		342E8395209B027D007308F8 /* JQRequestLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQRequestLoader.m; sourceTree = "<group>"; };
+		342E83AA209B0749007308F8 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3570D61E455ED864226EE88A /* Pods_JQRequestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQRequestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A564432C572B72471421F4B2 /* Pods-JQRequestKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQRequestKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQRequestKit/Pods-JQRequestKit.debug.xcconfig"; sourceTree = "<group>"; };
+		E7398CC37D971BA6A5433CA6 /* Pods-JQRequestKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQRequestKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQRequestKit/Pods-JQRequestKit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342E836C209B0194007308F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D58E1B85C9BF849A81DAA54 /* Pods_JQRequestKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0236647D679926B816CA3CC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3570D61E455ED864226EE88A /* Pods_JQRequestKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		342E8366209B0194007308F8 = {
+			isa = PBXGroup;
+			children = (
+				342E8372209B0194007308F8 /* JQRequestKit */,
+				342E8371209B0194007308F8 /* Products */,
+				9BEDAFEE947E4F53720AEA76 /* Pods */,
+				0236647D679926B816CA3CC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		342E8371209B0194007308F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342E8370209B0194007308F8 /* JQRequestKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342E8372209B0194007308F8 /* JQRequestKit */ = {
+			isa = PBXGroup;
+			children = (
+				342E83AA209B0749007308F8 /* Pods.xcodeproj */,
+				342E838D209B027C007308F8 /* JQDNSResolver.h */,
+				342E8389209B027C007308F8 /* JQDNSResolver.m */,
+				342E8381209B027B007308F8 /* JQDownloadRequest.h */,
+				342E8394209B027C007308F8 /* JQDownloadRequest.m */,
+				342E8386209B027C007308F8 /* JQDownloadRequestLoader.h */,
+				342E8390209B027C007308F8 /* JQDownloadRequestLoader.m */,
+				342E838B209B027C007308F8 /* JQMultipartComposer.h */,
+				342E838E209B027C007308F8 /* JQMultipartComposer.m */,
+				342E838A209B027C007308F8 /* JQRequest.h */,
+				342E8387209B027C007308F8 /* JQRequest.m */,
+				342E8393209B027C007308F8 /* JQRequestFamily.h */,
+				342E8388209B027C007308F8 /* JQRequestFamily.m */,
+				342E8391209B027C007308F8 /* JQRequestLoader.h */,
+				342E8395209B027D007308F8 /* JQRequestLoader.m */,
+				342E8382209B027C007308F8 /* JQRequestTracer.h */,
+				342E8392209B027C007308F8 /* JQRequestTracer.m */,
+				342E8385209B027C007308F8 /* JQResponseResult.h */,
+				342E838F209B027C007308F8 /* JQResponseResult.m */,
+				342E8383209B027C007308F8 /* private */,
+				342E8373209B0194007308F8 /* JQRequestKit.h */,
+				342E8374209B0194007308F8 /* Info.plist */,
+			);
+			path = JQRequestKit;
+			sourceTree = "<group>";
+		};
+		342E8383209B027C007308F8 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				342E8384209B027C007308F8 /* JQRequest+Private.h */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+		342E83AB209B0749007308F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342E83B0209B074A007308F8 /* libAFNetworking.a */,
+				342E83B2209B074A007308F8 /* libPods-JQRequestKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BEDAFEE947E4F53720AEA76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A564432C572B72471421F4B2 /* Pods-JQRequestKit.debug.xcconfig */,
+				E7398CC37D971BA6A5433CA6 /* Pods-JQRequestKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		342E836D209B0194007308F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342E83A5209B027D007308F8 /* JQRequestLoader.h in Headers */,
+				342E83A7209B027D007308F8 /* JQRequestFamily.h in Headers */,
+				342E839F209B027D007308F8 /* JQMultipartComposer.h in Headers */,
+				342E8397209B027D007308F8 /* JQRequestTracer.h in Headers */,
+				342E839A209B027D007308F8 /* JQDownloadRequestLoader.h in Headers */,
+				342E839E209B027D007308F8 /* JQRequest.h in Headers */,
+				342E8396209B027D007308F8 /* JQDownloadRequest.h in Headers */,
+				342E83A1209B027D007308F8 /* JQDNSResolver.h in Headers */,
+				342E8399209B027D007308F8 /* JQResponseResult.h in Headers */,
+				342E8375209B0194007308F8 /* JQRequestKit.h in Headers */,
+				342E8398209B027D007308F8 /* JQRequest+Private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		342E836F209B0194007308F8 /* JQRequestKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342E8378209B0194007308F8 /* Build configuration list for PBXNativeTarget "JQRequestKit" */;
+			buildPhases = (
+				D4A1C901791A2647963EE596 /* [CP] Check Pods Manifest.lock */,
+				342E836B209B0194007308F8 /* Sources */,
+				342E836C209B0194007308F8 /* Frameworks */,
+				342E836D209B0194007308F8 /* Headers */,
+				342E836E209B0194007308F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQRequestKit;
+			productName = JQRequestKit;
+			productReference = 342E8370209B0194007308F8 /* JQRequestKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342E8367209B0194007308F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = jqoo;
+				TargetAttributes = {
+					342E836F209B0194007308F8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 342E836A209B0194007308F8 /* Build configuration list for PBXProject "JQRequestKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 342E8366209B0194007308F8;
+			productRefGroup = 342E8371209B0194007308F8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 342E83AB209B0749007308F8 /* Products */;
+					ProjectRef = 342E83AA209B0749007308F8 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				342E836F209B0194007308F8 /* JQRequestKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		342E83B0209B074A007308F8 /* libAFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAFNetworking.a;
+			remoteRef = 342E83AF209B074A007308F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		342E83B2209B074A007308F8 /* libPods-JQRequestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-JQRequestKit.a";
+			remoteRef = 342E83B1209B074A007308F8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342E836E209B0194007308F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4A1C901791A2647963EE596 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JQRequestKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342E836B209B0194007308F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342E83A9209B027D007308F8 /* JQRequestLoader.m in Sources */,
+				342E839C209B027D007308F8 /* JQRequestFamily.m in Sources */,
+				342E83A6209B027D007308F8 /* JQRequestTracer.m in Sources */,
+				342E83A8209B027D007308F8 /* JQDownloadRequest.m in Sources */,
+				342E83A2209B027D007308F8 /* JQMultipartComposer.m in Sources */,
+				342E839D209B027D007308F8 /* JQDNSResolver.m in Sources */,
+				342E83A3209B027D007308F8 /* JQResponseResult.m in Sources */,
+				342E839B209B027D007308F8 /* JQRequest.m in Sources */,
+				342E83A4209B027D007308F8 /* JQDownloadRequestLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		342E8376209B0194007308F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		342E8377209B0194007308F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		342E8379209B0194007308F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A564432C572B72471421F4B2 /* Pods-JQRequestKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JQRequestKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jqoo.lab.JQRequestKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		342E837A209B0194007308F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7398CC37D971BA6A5433CA6 /* Pods-JQRequestKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JQRequestKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jqoo.lab.JQRequestKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342E836A209B0194007308F8 /* Build configuration list for PBXProject "JQRequestKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342E8376209B0194007308F8 /* Debug */,
+				342E8377209B0194007308F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342E8378209B0194007308F8 /* Build configuration list for PBXNativeTarget "JQRequestKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342E8379209B0194007308F8 /* Debug */,
+				342E837A209B0194007308F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342E8367209B0194007308F8 /* Project object */;
+}
