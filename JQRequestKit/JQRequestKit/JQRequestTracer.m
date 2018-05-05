@@ -3,7 +3,7 @@
 //  LoochaCampusMain
 //
 //  Created by zhang jinquan on 2/18/16.
-//  Copyright © 2016 Real Cloud. All rights reserved.
+//  Copyright © 2016 jqoo. All rights reserved.
 //
 
 #import "JQRequestTracer.h"

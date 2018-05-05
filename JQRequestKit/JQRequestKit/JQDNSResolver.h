@@ -3,7 +3,7 @@
 //  JQRequestKit
 //
 //  Created by jinquan on 2017/9/8.
-//  Copyright © 2017年 Real Cloud. All rights reserved.
+//  Copyright © 2017年 jqoo. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
